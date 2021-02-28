@@ -1,11 +1,5 @@
 pipeline {
 
-    agent {
-        node {
-            label 'main'
-        }
-    }
-
     stages {
                 
         stage('Code Checkout') {
